@@ -1,0 +1,41 @@
+mkdir my_folder
+
+Fred@Fred-PC MINGW32 /c/Ruby22
+$ cd my_folder
+
+Fred@Fred-PC MINGW32 /c/Ruby22/my_folder
+$ touch one.rb
+
+Fred@Fred-PC MINGW32 /c/Ruby22/my_folder
+$ touch two.rb
+
+Fred@Fred-PC MINGW32 /c/Ruby22/my_folder
+$ ls
+one.rb  two.rb
+
+Fred@Fred-PC MINGW32 /c/Ruby22/my_folder
+$ ruby one.rb
+this is file one
+
+Fred@Fred-PC MINGW32 /c/Ruby22/my_folder
+$ ruby two.rb
+
+Fred@Fred-PC MINGW32 /c/Ruby22/my_folder
+$ ruby two.rb
+this is file 2
+
+Exercise 2
+
+Fred@Fred-PC MINGW32 /c/Ruby22
+$ ls
+bin/  doc/  include/  LaunchSchoolFile/  lib/  my_folder/  New folder/  share/  unins000.dat  unins000.exe*
+
+Fred@Fred-PC MINGW32 /c/Ruby22
+$ rm -r my_folder
+
+Fred@Fred-PC MINGW32 /c/Ruby22
+$ ls
+bin/  doc/  include/  LaunchSchoolFile/  lib/  New folder/  share/  unins000.dat  unins000.exe*
+
+Fred@Fred-PC MINGW32 /c/
+

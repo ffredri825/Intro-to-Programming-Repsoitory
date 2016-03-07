@@ -1,0 +1,79 @@
+# 1 Add 2 strings together the return your first and last name
+
+
+fname = 'Fred'
+lname = 'Fredrickson'
+
+puts "Solution 1"
+puts fname +  ' ' + lname
+
+# This is string interpolation
+
+fname = "Fred"
+lname = "Fredrickson"
+
+puts "#{fname} #{lname}"
+
+
+# 2  Use the modulo operator, division, or a combination of both to take a 4 digit number and find 1) the thousands number 2) the hundreds 3) the tens and 4) and the ones.
+puts "Solution 2 "
+thousands = 1963 / 1000
+hundreds = 1963 % 1000 / 100
+tens = 1963 % 1000 % 100 / 10
+ones = 1963 % 1000 % 100 % 10
+puts thousands
+puts hundreds
+puts tens
+puts ones
+
+#Write a program that uses a hash to store a list of movie titles with the
+#year they came out. Then use the puts command to make your program print 
+#out the year of each movie to the screen. The output for your program 
+#should look something like this.
+
+
+movies = { one_flew_over_the_cuckoos_nest: 1975,
+           million_dollar_baby: 2004, 
+           twleve_years_a_slave: 2013, 
+           a_beautiful_mind: 2001, 
+           chariots_of_fire: 1981 }
+
+puts 'Solution 3'
+puts movies [:one_flew_over_the_cuckoos_nest]
+puts movies [:million_dollar_baby]
+puts movies [:twleve_years_a_slave]
+puts movies [:a_beautiful_mind]
+puts movies [:chariots_of_fire]
+
+
+puts 'Solution 4'
+movie_years = [1975, 2004, 2013, 2001,1981]
+puts movie_years[0]
+puts movie_years[1]
+puts movie_years[2]
+puts movie_years[3]
+puts movie_years[4]
+
+#5  Write a program that outputs the factorial of the numbers 5, 6, 7, and 8.
+
+puts 'Solution 5'
+puts 5 * 4 * 3 * 2 * 1
+puts 6* 5 * 4 * 3 * 2 * 1
+puts 7 * 6* 5 * 4 * 3 * 2 * 1
+puts 8 * 7 * 6* 5 * 4 * 3 * 2 * 1
+
+#6 Write a program that calculates the squares of 3 float numbers of your 
+#choosing and outputs the result to the screen.
+
+puts 'Solution 6'
+puts 3.33 * 3.33
+puts 103.1 * 103.1
+puts 12.111 * 12.111
+
+#7 What does the following error message tell you?
+
+#SyntaxError: (irb):2: syntax error, unexpected ')', expecting '}'
+#    from /usr/local/rvm/rubies/ruby-2.0.0-rc2/bin/irb:16:in `<main>'
+
+#There is an opening bracket somewhere in the program without a 
+#closing bracket following it. It may have happened when creating a hash.
